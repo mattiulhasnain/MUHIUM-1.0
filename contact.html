@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact TRUE SCHOLAR - Creator of MUHIUM Convert, the Ultimate Multi-Format Conversion Experience.">
+    <meta name="keywords" content="contact, TRUE SCHOLAR, MUHIUM Convert">
+    <meta name="author" content="TRUE SCHOLAR">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Contact TRUE SCHOLAR - MUHIUM Convert">
+    <meta property="og:description" content="Get in touch with TRUE SCHOLAR, the creator of MUHIUM Convert, the ultimate multi-format conversion website.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://muhium-convert.com/contact.html">
+    
+    <title>Contact - MUHIUM Convert</title>
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#101020">
+</head>
+<body class="theme-neon">
+    <div class="animated-background">
+        <div class="particle-layer"></div>
+        <div class="gradient-layer"></div>
+        <div class="noise-layer"></div>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <span class="logo-text">MUHIUM</span>
+            </div>
+            <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle Sidebar">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="sidebar-content">
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                <li><a href="pdf-tools.html"><i class="fas fa-file-pdf"></i> <span>PDF Tools</span></a></li>
+                <li><a href="document-tools.html"><i class="fas fa-file-word"></i> <span>Document Tools</span></a></li>
+                <li><a href="image-tools.html"><i class="fas fa-image"></i> <span>Image Tools</span></a></li>
+                <li><a href="audio-tools.html"><i class="fas fa-music"></i> <span>Audio Tools</span></a></li>
+                <li><a href="video-tools.html"><i class="fas fa-video"></i> <span>Video Tools</span></a></li>
+                <li><a href="media-tools.html"><i class="fas fa-photo-film"></i> <span>Media Tools</span></a></li>
+                <li><a href="utility-tools.html"><i class="fas fa-tools"></i> <span>Utility Tools</span></a></li>
+                <li><a href="text-tools.html"><i class="fas fa-font"></i> <span>Text Tools</span></a></li>
+                <li><a href="developer-guide.html"><i class="fas fa-code"></i> <span>Developer Guide</span></a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> <span>About</span></a></li>
+                <li class="active"><a href="contact.html"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+            </ul>
+        </div>
+        <div class="sidebar-footer">
+            <div class="theme-selector">
+                <button class="theme-btn" data-theme="light" aria-label="Light Theme"><i class="fas fa-sun"></i></button>
+                <button class="theme-btn" data-theme="dark" aria-label="Dark Theme"><i class="fas fa-moon"></i></button>
+                <button class="theme-btn" data-theme="neon" aria-label="Neon Theme"><i class="fas fa-bolt"></i></button>
+                <button class="theme-btn" data-theme="glassy" aria-label="Glassy Theme"><i class="fas fa-glass-martini"></i></button>
+                <button class="theme-btn" data-theme="cyberpunk" aria-label="Cyberpunk Theme"><i class="fas fa-robot"></i></button>
+                <button class="theme-btn" data-theme="retro" aria-label="Retro Theme"><i class="fas fa-gamepad"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="contact-section fade-in-section">
+            <h1 class="contact-title kinetic-text">
+                <span class="letter-anim">G</span>
+                <span class="letter-anim">e</span>
+                <span class="letter-anim">t</span>
+                <span class="letter-anim spacer"></span>
+                <span class="letter-anim">i</span>
+                <span class="letter-anim">n</span>
+                <span class="letter-anim spacer"></span>
+                <span class="letter-anim">T</span>
+                <span class="letter-anim">o</span>
+                <span class="letter-anim">u</span>
+                <span class="letter-anim">c</span>
+                <span class="letter-anim">h</span>
+            </h1>
+
+            <div class="contact-container">
+                <div class="contact-form-container">
+                    <div class="card contact-form-card">
+                        <h2>Send a Message</h2>
+                        <p class="form-subtitle">Have questions, feedback, or just want to say hello? Use the form below to reach out!</p>
+                        
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                                    <span class="error-message"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                                    <span class="error-message"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-heading"></i>
+                                    <input type="text" id="subject" name="subject" required placeholder="Enter message subject">
+                                    <span class="error-message"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <div class="input-wrapper textarea-wrapper">
+                                    <i class="fas fa-comment-alt"></i>
+                                    <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+                                    <span class="error-message"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <button type="submit" class="submit-btn ripple-effect">
+                                    <span class="btn-text">Send Message</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                    <div class="loading-spinner" style="display: none;"></div>
+                                    <span class="hover-glow"></span>
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <div id="successMessage" class="success-message" style="display: none;">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Your message has been sent successfully! I'll get back to you as soon as possible.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-info-container">
+                    <div class="card contact-info-card">
+                        <h2>Contact Information</h2>
+                        <p class="info-subtitle">Feel free to reach out through any of these channels:</p>
+                        
+                        <ul class="contact-info-list">
+                            <li>
+                                <div class="info-icon">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Developer Name</h3>
+                                    <p>TRUE SCHOLAR</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Personal Email</h3>
+                                    <a href="mailto:m.mattiulhasnain@gmail.com">m.mattiulhasnain@gmail.com</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Student Email</h3>
+                                    <a href="mailto:bc240412496mmu@vu.edu.pk">bc240412496mmu@vu.edu.pk</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Phone</h3>
+                                    <a href="tel:+923434455432">+92 343 4455432</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>GitHub</h3>
+                                    <a href="https://github.com/mattiulhasnain/" target="_blank">github.com/mattiulhasnain</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Instagram</h3>
+                                    <a href="https://www.instagram.com/m.mattiulhasnain/" target="_blank">instagram.com/m.mattiulhasnain</a>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <div class="privacy-note">
+                            <i class="fas fa-shield-alt"></i>
+                            <p>Your privacy matters! All information submitted through this form is kept strictly confidential and will never be shared with third parties.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">MUHIUM</span>
+                <span class="tagline">Convert</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li><a href="pdf-tools.html">PDF Tools</a></li>
+                        <li><a href="document-tools.html">Document Tools</a></li>
+                        <li><a href="image-tools.html">Image Tools</a></li>
+                        <li><a href="audio-tools.html">Audio Tools</a></li>
+                        <li><a href="video-tools.html">Video Tools</a></li>
+                        <li><a href="text-tools.html">Text Tools</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="developer-guide.html">Developer Guide</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://github.com/mattiulhasnain/" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.instagram.com/m.mattiulhasnain/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 MUHIUM Convert. Created by <a href="about.html">TRUE SCHOLAR</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/effects.js"></script>
+    
+    <script>
+        // Contact form validation and submission
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            const successMessage = document.getElementById('successMessage');
+            const submitBtn = contactForm.querySelector('.submit-btn');
+            const btnText = submitBtn.querySelector('.btn-text');
+            const loadingSpinner = submitBtn.querySelector('.loading-spinner');
+            
+            // Form validation
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Reset previous errors
+                const errorMessages = contactForm.querySelectorAll('.error-message');
+                errorMessages.forEach(msg => msg.textContent = '');
+                
+                // Get form fields
+                const name = document.getElementById('name');
+                const email = document.getElementById('email');
+                const subject = document.getElementById('subject');
+                const message = document.getElementById('message');
+                
+                // Validate fields
+                let isValid = true;
+                
+                if (!name.value.trim()) {
+                    showError(name, 'Please enter your name');
+                    isValid = false;
+                }
+                
+                if (!email.value.trim()) {
+                    showError(email, 'Please enter your email');
+                    isValid = false;
+                } else if (!isValidEmail(email.value)) {
+                    showError(email, 'Please enter a valid email address');
+                    isValid = false;
+                }
+                
+                if (!subject.value.trim()) {
+                    showError(subject, 'Please enter a subject');
+                    isValid = false;
+                }
+                
+                if (!message.value.trim()) {
+                    showError(message, 'Please enter your message');
+                    isValid = false;
+                }
+                
+                if (isValid) {
+                    // Show loading state
+                    btnText.textContent = 'Sending...';
+                    loadingSpinner.style.display = 'inline-block';
+                    submitBtn.disabled = true;
+                    
+                    // Simulate form submission (would be replaced with actual API call)
+                    setTimeout(function() {
+                        // Hide form and show success message
+                        contactForm.style.display = 'none';
+                        successMessage.style.display = 'flex';
+                        
+                        // Reset form for future submissions
+                        contactForm.reset();
+                        btnText.textContent = 'Send Message';
+                        loadingSpinner.style.display = 'none';
+                        submitBtn.disabled = false;
+                    }, 1500);
+                }
+            });
+            
+            // Helper function to show error message
+            function showError(input, message) {
+                const formGroup = input.closest('.form-group');
+                const errorMessage = formGroup.querySelector('.error-message');
+                errorMessage.textContent = message;
+                input.classList.add('error');
+                
+                // Remove error after user starts typing
+                input.addEventListener('input', function() {
+                    errorMessage.textContent = '';
+                    input.classList.remove('error');
+                }, { once: true });
+            }
+            
+            // Helper function to validate email
+            function isValidEmail(email) {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailRegex.test(email);
+            }
+            
+            // Add floating label effect
+            const formInputs = document.querySelectorAll('.contact-form input, .contact-form textarea');
+            formInputs.forEach(input => {
+                input.addEventListener('focus', function() {
+                    this.parentElement.classList.add('focused');
+                });
+                
+                input.addEventListener('blur', function() {
+                    if (!this.value) {
+                        this.parentElement.classList.remove('focused');
+                    }
+                });
+                
+                // Check initial state (for browser autofill)
+                if (input.value) {
+                    input.parentElement.classList.add('focused');
+                }
+            });
+        });
+    </script>
+    
+    <style>
+        /* Contact page specific styles */
+        .contact-section {
+            padding: 2rem 0;
+        }
+        
+        .contact-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 3.5rem;
+        }
+        
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .contact-form-container {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .contact-info-container {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .contact-form-card,
+        .contact-info-card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .contact-form-card h2,
+        .contact-info-card h2 {
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .form-subtitle,
+        .info-subtitle {
+            color: var(--color-text-secondary);
+            margin-bottom: 2rem;
+        }
+        
+        /* Contact Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .form-group {
+            position: relative;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            transition: all var(--transition-fast);
+        }
+        
+        .input-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        
+        .input-wrapper i {
+            position: absolute;
+            left: 1rem;
+            color: var(--color-text-secondary);
+            transition: all var(--transition-fast);
+            pointer-events: none;
+        }
+        
+        .input-wrapper input,
+        .input-wrapper textarea {
+            width: 100%;
+            padding: 1rem 1rem 1rem 2.5rem;
+            border: 1px solid var(--color-border);
+            border-radius: var(--border-radius-md);
+            background-color: var(--color-card-bg);
+            color: var(--color-text-primary);
+            transition: all var(--transition-fast);
+        }
+        
+        .textarea-wrapper i {
+            top: 1rem;
+        }
+        
+        .input-wrapper.focused i {
+            color: var(--color-primary);
+        }
+        
+        .input-wrapper input:focus,
+        .input-wrapper textarea:focus {
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(var(--color-primary-rgb, 58, 134, 255), 0.2);
+        }
+        
+        .input-wrapper input.error,
+        .input-wrapper textarea.error {
+            border-color: var(--color-danger);
+        }
+        
+        .error-message {
+            color: var(--color-danger);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+            display: block;
+            min-height: 1rem;
+        }
+        
+        .submit-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            background-color: var(--color-primary);
+            color: var(--color-text-on-dark);
+            border: none;
+            border-radius: var(--border-radius-full);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        
+        .submit-btn:hover {
+            background-color: var(--color-secondary);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .submit-btn:disabled {
+            background-color: var(--color-bg-secondary);
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .submit-btn .loading-spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        .success-message {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            background-color: rgba(var(--color-success-rgb, 6, 214, 160), 0.1);
+            border-radius: var(--border-radius-md);
+        }
+        
+        .success-message i {
+            font-size: 3rem;
+            color: var(--color-success);
+            margin-bottom: 1rem;
+        }
+        
+        /* Contact Info Styles */
+        .contact-info-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .contact-info-list li {
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .info-icon {
+            width: 40px;
+            height: 40px;
+            background-color: var(--color-bg-secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            color: var(--color-primary);
+        }
+        
+        .info-content {
+            flex: 1;
+        }
+        
+        .info-content h3 {
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+            color: var(--color-text-secondary);
+        }
+        
+        .info-content p,
+        .info-content a {
+            color: var(--color-primary);
+            font-weight: 500;
+        }
+        
+        .info-content a:hover {
+            color: var(--color-secondary);
+            text-decoration: underline;
+        }
+        
+        .privacy-note {
+            margin-top: 2rem;
+            display: flex;
+            align-items: flex-start;
+            padding: 1rem;
+            background-color: var(--color-bg-secondary);
+            border-radius: var(--border-radius-md);
+        }
+        
+        .privacy-note i {
+            color: var(--color-success);
+            margin-right: 1rem;
+            font-size: 1.25rem;
+        }
+        
+        .privacy-note p {
+            font-size: 0.875rem;
+            line-height: 1.5;
+            color: var(--color-text-secondary);
+            margin: 0;
+        }
+        
+        /* Theme-specific styles */
+        .theme-neon .submit-btn {
+            box-shadow: 0 0 15px var(--color-primary);
+        }
+        
+        .theme-neon .info-icon {
+            box-shadow: 0 0 10px var(--color-primary);
+        }
+        
+        .theme-cyberpunk .submit-btn {
+            background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+            clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
+            padding: 1rem 2.5rem;
+        }
+        
+        .theme-glassy .info-icon,
+        .theme-glassy .input-wrapper input,
+        .theme-glassy .input-wrapper textarea {
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .contact-title {
+                font-size: 2.5rem;
+            }
+            
+            .contact-container {
+                flex-direction: column;
+            }
+            
+            .contact-form-container,
+            .contact-info-container {
+                width: 100%;
+            }
+        }
+    </style>
+</body>
+</html> 

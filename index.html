@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MUHIUM Convert - The Ultimate Multi-Format Conversion Experience. Convert PDFs, documents, images, audio, video and more with our cutting-edge tools.">
+    <meta name="keywords" content="file converter, pdf tools, image converter, audio converter, video converter, text tools, format conversion">
+    <meta name="author" content="TRUE SCHOLAR">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="MUHIUM Convert - Ultimate Multi-Format Conversion">
+    <meta property="og:description" content="Convert Anything. Elevate Everything. The most advanced file conversion suite with immersive UI.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://muhium-convert.com">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "MUHIUM Convert",
+        "description": "The Ultimate Multi-Format Conversion Experience",
+        "applicationCategory": "Utility",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "USD"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "TRUE SCHOLAR"
+        }
+    }
+    </script>
+    
+    <title>MUHIUM Convert - Ultimate Multi-Format Conversion</title>
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#101020">
+</head>
+<body class="theme-neon">
+    <div class="animated-background">
+        <div class="particle-layer"></div>
+        <div class="gradient-layer"></div>
+        <div class="noise-layer"></div>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <span class="logo-text">MUHIUM</span>
+            </div>
+            <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle Sidebar">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="sidebar-content">
+            <ul class="nav-links">
+                <li class="active"><a href="index.html"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                <li><a href="pdf-tools.html"><i class="fas fa-file-pdf"></i> <span>PDF Tools</span></a></li>
+                <li><a href="document-tools.html"><i class="fas fa-file-word"></i> <span>Document Tools</span></a></li>
+                <li><a href="image-tools.html"><i class="fas fa-image"></i> <span>Image Tools</span></a></li>
+                <li><a href="audio-tools.html"><i class="fas fa-music"></i> <span>Audio Tools</span></a></li>
+                <li><a href="video-tools.html"><i class="fas fa-video"></i> <span>Video Tools</span></a></li>
+                <li><a href="media-tools.html"><i class="fas fa-photo-film"></i> <span>Media Tools</span></a></li>
+                <li><a href="utility-tools.html"><i class="fas fa-tools"></i> <span>Utility Tools</span></a></li>
+                <li><a href="text-tools.html"><i class="fas fa-font"></i> <span>Text Tools</span></a></li>
+                <li><a href="developer-guide.html"><i class="fas fa-code"></i> <span>Developer Guide</span></a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> <span>About</span></a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+            </ul>
+        </div>
+        <div class="sidebar-footer">
+            <div class="theme-selector">
+                <button class="theme-btn" data-theme="light" aria-label="Light Theme"><i class="fas fa-sun"></i></button>
+                <button class="theme-btn" data-theme="dark" aria-label="Dark Theme"><i class="fas fa-moon"></i></button>
+                <button class="theme-btn" data-theme="neon" aria-label="Neon Theme"><i class="fas fa-bolt"></i></button>
+                <button class="theme-btn" data-theme="glassy" aria-label="Glassy Theme"><i class="fas fa-glass-martini"></i></button>
+                <button class="theme-btn" data-theme="cyberpunk" aria-label="Cyberpunk Theme"><i class="fas fa-robot"></i></button>
+                <button class="theme-btn" data-theme="retro" aria-label="Retro Theme"><i class="fas fa-gamepad"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="hero-section parallax-container">
+            <div class="welcome-message" id="welcome-message">
+                <!-- Dynamically populated based on time of day -->
+            </div>
+            <h1 class="site-title kinetic-text">
+                <span class="letter-anim">M</span>
+                <span class="letter-anim">U</span>
+                <span class="letter-anim">H</span>
+                <span class="letter-anim">I</span>
+                <span class="letter-anim">U</span>
+                <span class="letter-anim">M</span>
+                <span class="letter-anim spacer"></span>
+                <span class="letter-anim">C</span>
+                <span class="letter-anim">o</span>
+                <span class="letter-anim">n</span>
+                <span class="letter-anim">v</span>
+                <span class="letter-anim">e</span>
+                <span class="letter-anim">r</span>
+                <span class="letter-anim">t</span>
+            </h1>
+            <p class="site-tagline">Convert Anything. Elevate Everything.</p>
+            <div class="cta-container">
+                <button class="cta-button ripple-effect">Get Started<span class="hover-glow"></span></button>
+            </div>
+        </div>
+
+        <div class="features-section">
+            <h2 class="section-title">All-in-One Conversion Suite</h2>
+            <div class="feature-grid">
+                <div class="feature-card" data-tool="pdf">
+                    <div class="card-inner">
+                        <i class="feature-icon fas fa-file-pdf"></i>
+                        <h3>PDF Tools</h3>
+                        <p>Merge, split, compress, encrypt PDFs and more</p>
+                        <a href="pdf-tools.html" class="feature-link">Explore <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="feature-card" data-tool="document">
+                    <div class="card-inner">
+                        <i class="feature-icon fas fa-file-word"></i>
+                        <h3>Document Tools</h3>
+                        <p>Convert documents between multiple formats</p>
+                        <a href="document-tools.html" class="feature-link">Explore <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="feature-card" data-tool="image">
+                    <div class="card-inner">
+                        <i class="feature-icon fas fa-image"></i>
+                        <h3>Image Tools</h3>
+                        <p>Convert, resize, compress, and edit images</p>
+                        <a href="image-tools.html" class="feature-link">Explore <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="feature-card" data-tool="audio">
+                    <div class="card-inner">
+                        <i class="feature-icon fas fa-music"></i>
+                        <h3>Audio Tools</h3>
+                        <p>Convert audio files, edit, and add effects</p>
+                        <a href="audio-tools.html" class="feature-link">Explore <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="feature-card" data-tool="video">
+                    <div class="card-inner">
+                        <i class="feature-icon fas fa-video"></i>
+                        <h3>Video Tools</h3>
+                        <p>Convert videos, trim, crop, and add subtitles</p>
+                        <a href="video-tools.html" class="feature-link">Explore <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="feature-card" data-tool="text">
+                    <div class="card-inner">
+                        <i class="feature-icon fas fa-font"></i>
+                        <h3>Text Tools</h3>
+                        <p>Count words, analyze text, check plagiarism</p>
+                        <a href="text-tools.html" class="feature-link">Explore <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="how-it-works">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Choose a Tool</h3>
+                        <p>Select from our wide range of conversion and processing tools</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Upload Files</h3>
+                        <p>Drag and drop or browse to select your files</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Process</h3>
+                        <p>Let our powerful algorithms process your files with precision</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Download</h3>
+                        <p>Get your converted files instantly with no quality loss</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="privacy-section">
+            <div class="privacy-content">
+                <h2>Your Privacy Matters</h2>
+                <p>All conversions happen right in your browser. Your files never leave your device, ensuring complete privacy and security.</p>
+                <ul class="privacy-features">
+                    <li><i class="fas fa-lock"></i> Client-side processing only</li>
+                    <li><i class="fas fa-shield-alt"></i> Files never uploaded to any server</li>
+                    <li><i class="fas fa-check-circle"></i> No data retention</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">MUHIUM</span>
+                <span class="tagline">Convert</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li><a href="pdf-tools.html">PDF Tools</a></li>
+                        <li><a href="document-tools.html">Document Tools</a></li>
+                        <li><a href="image-tools.html">Image Tools</a></li>
+                        <li><a href="audio-tools.html">Audio Tools</a></li>
+                        <li><a href="video-tools.html">Video Tools</a></li>
+                        <li><a href="text-tools.html">Text Tools</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="developer-guide.html">Developer Guide</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://github.com/mattiulhasnain/" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.instagram.com/m.mattiulhasnain/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 MUHIUM Convert. Created by <a href="about.html">TRUE SCHOLAR</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/effects.js"></script>
+</body>
+</html> 
